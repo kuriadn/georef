@@ -31,7 +31,7 @@ for i in range(0, len(lo)):
   if ((l + 1)/2.0 - floor((l + 1)/2.0)) > 0.01: 
   	lam0 = l + 1
   else: lam0 = l 
-  print lam0
+  print (lam0)
   csStr = getProjStrCass(phi0, lam0)
   cPrj = Proj(csStr)
   x, y = cPrj(lo[i], la[i])
